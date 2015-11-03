@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>{% block title %}{% endblock %}Croquis</title>
+  {% load staticfiles %}
+  <link href="https://raw.githubusercontent.com/10up/sanitize.css/master/sanitize.css" rel="stylesheet" type="text/css">
+  <link href="{% static 'build/css/style.css' %}" rel="stylesheet" type="text/css">
+</head>
+<body>
+  {% block content %}{% endblock %}
+</body>
+</html>
