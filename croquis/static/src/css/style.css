@@ -1,3 +1,12 @@
+.hero-image {
+  padding-top: 1px;
+  height: 800px;
+  background-image: url('../../images/hero.jpg');
+  background-size: 100% auto;
+  filter: brightness(.4);
+  display: block;
+}
+
 h1 {
-  color: red;
+  color: white;
 }

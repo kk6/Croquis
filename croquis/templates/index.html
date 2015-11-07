@@ -1,5 +1,8 @@
 {% extends 'base.html' %}
 
 {% block content %}
-  <h1>Hello world!</h1>
+<div class="hero-image">
+  <h1>Croquis</h1>
+  <a class="login-twitter" href="{% url 'social:begin' 'twitter' %}?next={% url 'home' %}">Sign in with twitter</a>
+</div>
 {% endblock %}

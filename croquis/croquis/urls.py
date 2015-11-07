@@ -18,6 +18,8 @@ from django.contrib import admin
 from django.views.generic import TemplateView
 
 urlpatterns = [
+    url('', include('social.apps.django_app.urls', namespace='social')),
     url(r'^$', TemplateView.as_view(template_name='index.html'), name='index'),
+    url(r'^home/$', TemplateView.as_view(template_name='home.html'), name='home'),
     url(r'^admin/', include(admin.site.urls)),
 ]
