@@ -2,4 +2,9 @@
 
 {% block content %}
 Hello {{ user }}
+<ul>
+  {% for t in request.twitter_api.home_timeline %}
+    <li>{{ t.text }}</li>
+  {% endfor %}
+</ul>
 {% endblock %}

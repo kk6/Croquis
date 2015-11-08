@@ -1,8 +1,9 @@
 {% extends 'base.html' %}
 
 {% block content %}
+<nav class="global-nav"><h1 class="site-title">Croquis.book</h1></nav>
 <div class="hero-image">
-  <h1>croquis.book</h1>
-  <a class="login-twitter" href="{% url 'social:begin' 'twitter' %}?next={% url 'home' %}">Sign in with twitter</a>
+  <p class="site-description">Let's manage the croquis to post to twitter.</p>
+  <a class="login-twitter" href="{% url 'social:begin' 'twitter' %}?next={% url 'home' %}"><i class="fa fa-twitter"></i> Sign in with twitter</a>
 </div>
 {% endblock %}

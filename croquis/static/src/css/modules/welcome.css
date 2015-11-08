@@ -1,0 +1,44 @@
+.global-nav {
+  background-color: $main_background;
+}
+
+.hero-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
+  height: 90vh;
+  padding-top: 1px;
+  color: #fff;
+  background-color: $main_background;
+  background-size: 100% auto;
+
+  .login-twitter {
+    padding: .5rem;
+    color: #fff;
+    text-decoration: none;
+    border: 1.8px solid #fff;
+    border-radius: 5rem;
+    transition: .3s;
+    font-family: 'Open Sans', sans-serif;
+
+    &:hover {
+      color: #000;
+      background-color: #fff;
+    }
+  }
+}
+
+.site-title {
+  padding: 1rem;
+  margin: 0;
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.site-description {
+  font-family: 'Bubblegum Sans', cursive;
+  font-size: 4rem;
+}
