@@ -1,0 +1,7 @@
+# Development Packages
+pip-tools
+pip-review
+pipdeptree
+pip-autoremove
+pip-accel
+django-debug-toolbar
