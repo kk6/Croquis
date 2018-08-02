@@ -1,2 +1,2 @@
-Django==2.0.4
-wheel==0.31.0
+Django==2.1
+wheel==0.31.1
